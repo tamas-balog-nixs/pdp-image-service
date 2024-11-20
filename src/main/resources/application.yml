@@ -1,0 +1,16 @@
+spring:
+  artemis:
+    user: artemis
+    password: test@123
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/pdp?allowPublicKeyRetrieval=true&useSSL=false
+    password: test@123
+file:
+  upload-dir: /home/tamas-balog/Desktop/PDP/pdp/src/main/resources/images
+thumbnail:
+  width: 200
+  height: 200
+  corner-radius: 30
+amq:
+  queue: pdp
